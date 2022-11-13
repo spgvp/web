@@ -18,21 +18,13 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Nadpis", name: "title", widget: "string"}
-      - {label: "Obrázek", name: "cover.image", widget: "image", required: false}
-      - {label: "Schovaný", name: "cover.hidden", widget: "boolean", default: false}
       - {label: "Pořadí", name: "weight", widget: "number", default: 100, valueType: int, min: 1, max: 1000}
       - {label: "Text", name: "body", widget: "markdown"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Štítky", name: "tags", widget: "list", default: []}
-      - label: "Testimonials"
-        name: "testimonials"
-        widget: "list"
-        summary: '{{fields.quote}} - {{fields.author.name}}'
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
         fields:
-          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-          - label: Author
-            name: author
-            widget: object
-            fields:
-              - {label: Name, name: name, widget: string, default: "Emmet"}
-              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+          - {label: "Obrázek", name: "image", widget: "image", required: false}
+          - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}

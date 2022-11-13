@@ -28,18 +28,21 @@ collections:
         fields:
           - {label: "Obrázek", name: "image", widget: "image", required: false}
           - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}
-  - file: "content/about.md"
-    label: "O nás"
-    name: "about"
-    fields: # The fields for each document, usually in front matter
-      - {label: "Nadpis", name: "title", widget: "string"}
-      - {label: "Pořadí", name: "weight", widget: "number", default: 100, valueType: int, min: 1, max: 1000}
-      - {label: "Text", name: "body", widget: "markdown"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Štítky", name: "tags", widget: "list", default: []}
-      - label: "Cover"
-        name: "cover"
-        widget: "object"
-        fields:
-          - {label: "Obrázek", name: "image", widget: "image", required: false}
-          - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}
+  - name: "single-pages" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Jednotlivé stránky" # Used in the UI, ie.: "New Post"
+    files:  
+      - file: "content/about.md"
+        label: "O nás"
+        name: "about"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Nadpis", name: "title", widget: "string"}
+          - {label: "Pořadí", name: "weight", widget: "number", default: 100, valueType: int, min: 1, max: 1000}
+          - {label: "Text", name: "body", widget: "markdown"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: true}
+          - {label: "Štítky", name: "tags", widget: "list", default: []}
+          - label: "Cover"
+            name: "cover"
+            widget: "object"
+            fields:
+              - {label: "Obrázek", name: "image", widget: "image", required: false}
+              - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}

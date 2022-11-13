@@ -19,6 +19,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Nadpis", name: "title", widget: "string"}
       - {label: "Pořadí", name: "weight", widget: "number", default: 100, valueType: int, min: 1, max: 1000}
+      - {label: "Datum změny", name: "date", widget: "date", format: "DD.MM.YYYY"}
       - {label: "Koncept", name: "draft", widget: "boolean", default: true}
       - {label: "Štítky", name: "tags", widget: "list", default: []}
       - label: "Cover"
@@ -27,6 +28,7 @@ collections:
         fields:
           - {label: "Obrázek", name: "image", widget: "image", required: false}
           - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}
+      - {label: "Poznámka", name: "comment", widget: "text"}     
       - {label: "Text", name: "body", widget: "markdown"}     
   - name: "single-pages" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Jednotlivé stránky" # Used in the UI, ie.: "New Post"
@@ -43,4 +45,5 @@ collections:
             fields:
               - {label: "Obrázek", name: "image", widget: "image", required: false}
               - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}
+          - {label: "Poznámka", name: "comment", widget: "text"} 
           - {label: "Text", name: "body", widget: "markdown"}

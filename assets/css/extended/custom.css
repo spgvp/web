@@ -1,5 +1,11 @@
-html {
+/*from reset.css*/
+body {
     font-size: calc(15px + 0.390625vw);
+    background: var(--code-bg);
+}
+
+.dark {
+    background: var(--theme);
 }
 
 .first-entry {
@@ -19,4 +25,18 @@ html {
 .first-entry .entry-footer {
     text-align: center;
     margin-top: 1rem;
+}
+
+.post-single {
+    position: relative;
+    margin-bottom: var(--gap);
+    padding: var(--gap);
+    background: var(--entry);
+    border-radius: var(--radius);
+    transition: transform 0.1s;
+    border: 1px solid var(--border);
+}
+
+.post-header {
+    margin: 0 auto var(--content-gap);
 }

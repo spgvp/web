@@ -28,7 +28,7 @@ collections:
         fields:
           - {label: "Obrázek", name: "image", widget: "image", required: false}
           - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}
-      - {label: "Poznámka", name: "comment", widget: "text"}     
+      - {label: "Poznámka", name: "comment", widget: "text", required: false}     
       - {label: "Text", name: "body", widget: "markdown"}     
   - name: "single-pages" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Jednotlivé stránky" # Used in the UI, ie.: "New Post"
@@ -45,5 +45,5 @@ collections:
             fields:
               - {label: "Obrázek", name: "image", widget: "image", required: false}
               - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}
-          - {label: "Poznámka", name: "comment", widget: "text"} 
+          - {label: "Poznámka", name: "comment", widget: "text", required: false} 
           - {label: "Text", name: "body", widget: "markdown"}

@@ -28,7 +28,6 @@ collections:
         fields:
           - {label: "Obrázek", name: "image", widget: "image", required: false}
           - {label: "Schovaný", name: "hidden", widget: "boolean", default: false}
-files:
   - file: "content/about.md"
     label: "O nás"
     name: "about"

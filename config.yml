@@ -1,0 +1,110 @@
+baseURL: http://example.org/
+languageCode: cs-cz
+title: SPGVP
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: SPGVP
+  description: "Web Studentského parlamentu GVP"
+  keywords: [GVP, spgvp, parlament GVP, Studentský parlament, Gymnázium Na Vítězné pláni]
+  # author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["https://pbs.twimg.com/profile_banners/1468537885330751491/1641501142/600x200"]
+  DateFormat: "2. 1. 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "Domů"
+    icon: /favicon-32x32.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Studentský Parlament GVP"
+    Content: 
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/spgvp"
+    - name: instagram
+      url: "https://instagram.com/spgvp"
+    - name: youtube
+      url: "https://www.youtube.com/c/gvpcz"
+    - name: tiktok
+      url: "https://www.tiktok.com/@spgvp"
+    - name: other
+      url: "https://www.gvp.cz"    
+
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary

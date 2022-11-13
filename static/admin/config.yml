@@ -19,7 +19,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Nadpis", name: "title", widget: "string"}
       - {label: "Pořadí", name: "weight", widget: "number", default: 100, valueType: int, min: 1, max: 1000}
-      - {label: "Datum změny", name: "date", widget: "date", format: "DD.MM.YYYY"}
+      - {label: "Datum změny", name: "date", widget: "date"}
       - {label: "Koncept", name: "draft", widget: "boolean", default: true}
       - {label: "Štítky", name: "tags", widget: "list", default: []}
       - label: "Cover"

@@ -1,6 +1,6 @@
 ---
 title: "První post"
-date: 03.11.2022
+date: 2022-11-03
 draft: false
 ---
 ## Test prvního postu

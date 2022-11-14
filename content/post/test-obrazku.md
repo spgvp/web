@@ -1,14 +1,13 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+title: My 1st post
 weight: 1
-tags: ["first"]
+date: 2020-09-15T11:30:03+00:00
+draft: true
+tags:
+  - first
 cover:
-    image: "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" # image path/url
-#    alt: "image" # alt text
-#    caption: "" # display caption under cover
-#    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
+  image: ""
+  hidden: false
 ---
 
 Studentský parlament Gymnázia Na Vítězné pláni je nezávislým samosprávným orgánem žáků. 

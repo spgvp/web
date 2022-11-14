@@ -10,3 +10,11 @@ cover:
   hidden: false
 ---
 Studentský parlament Gymnázia Na Vítězné pláni je nezávislým samosprávným orgánem žáků. mMAMÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁ
+
+O﻿SNV
+
+K﻿BSIDV 
+
+H﻿USIVB
+
+U﻿SDIVB

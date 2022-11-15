@@ -8,7 +8,7 @@ tags:
   - ""
 cover:
   hidden: false
-  image: null
+  image: https://i.mimibazar.cz/h/bc/12/090623/14/n1198.jpg
 ---
 
 

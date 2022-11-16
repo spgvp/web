@@ -9,7 +9,7 @@ tags:
   - student
 cover:
   hidden: false
-  image: /images/uploads/helouvin.jpg
+  image: /images/uploads/bez-nazvu-1640-724-px-.jpg
 ---
 <!--StartFragment-->
 

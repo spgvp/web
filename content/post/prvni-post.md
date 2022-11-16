@@ -10,7 +10,7 @@ tags:
   - učitelé
 cover:
   hidden: false
-  image: /images/uploads/bez-nazvu-1640-724-px-2-.jpg
+  image: /images/uploads/tmz.jpg
 ---
 <!--StartFragment-->
 

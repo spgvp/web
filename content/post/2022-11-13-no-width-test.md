@@ -1,7 +1,7 @@
 ---
 title: 31.10. - Halloween
 weight: 60
-date: 2022-10-30T23:00:00.000Z
+date: 2022-10-31T23:00:00.000Z
 draft: false
 tags:
   - halloween

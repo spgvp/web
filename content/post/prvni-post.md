@@ -1,7 +1,7 @@
 ---
 title: 10.10. - 14.10. Týden Duševního zdraví
 weight: 40
-date: 2022-11-15T23:00:00.000Z
+date: 2022-10-10T23:00:00.000Z
 draft: false
 tags:
   - tmz

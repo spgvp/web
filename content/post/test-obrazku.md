@@ -1,7 +1,7 @@
 ---
 title: 14.2. - Valentýn
 weight: 10
-date: 2020-11-16T12:30:03.000Z
+date: 2020-02-14T12:30:03.000Z
 draft: false
 tags:
   - studenti

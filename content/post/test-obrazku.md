@@ -8,7 +8,7 @@ tags:
   - učitelé
   - valentýn
 cover:
-  image: /images/uploads/bez-nazvu-1640-724-px-4-.jpg
+  image: /images/uploads/bez-nazvu-1640-724-px-5-.jpg
   hidden: false
 ---
 <!--StartFragment-->

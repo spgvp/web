@@ -1,24 +1,20 @@
 ---
 title: 31.10. - Halloween
-weight: 100
-date: 2022-11-07T23:00:00.000Z
+weight: 60
+date: 2022-11-15T23:00:00.000Z
 draft: false
 tags:
-  - Lmoa
-  - ""
+  - halloween
+  - akce
+  - student
 cover:
   hidden: false
-  image: https://i.mimibazar.cz/h/bc/12/090623/14/n1198.jpg
+  image: /images/uploads/helouvin.jpg
 ---
+<!--StartFragment-->
 
+Stejně jako minulý rok, i letos pořádáme Halloween! Pokud máš jakýkoliv kostým, přijď v něm v pondělí 31.10. a zasoutěž si o hodnotné ceny. Společné focení a soutěž bude probíhat v malé tělocvičně o velké přestávce. Večer od 20.00 bude ve studovně promítání filmu Hotel Transylvanie.
 
-![]()
+P﻿ro Studentský parlament, Jakub Vysypal a tým
 
-# nB﻿Lbablasdkabdbdb
-
-*d﻿asd*
-
-**d﻿ds**
-
-k﻿jkh*`efjh`*sdfdf
-
+<!--EndFragment-->

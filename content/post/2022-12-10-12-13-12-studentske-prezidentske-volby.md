@@ -1,6 +1,6 @@
 ---
-title: 12.-13.12 Studentské prezidentské volby
-weight: 100
+title: 12.-13.12 - Studentské prezidentské volby
+weight: 10
 date: 2022-12-10T08:13:44.516Z
 draft: false
 tags:
@@ -9,6 +9,7 @@ tags:
   - volby
 cover:
   hidden: false
+  image: /images/uploads/nahledovky.web-1-.jpg
 ---
 V lednu Českou republiku čeká volba nového prezidenta. Přestože volební právo mají pouze studenti starší 18 let, dostanou studenti prvního až čtvrtého ročníku čtyřletého studia a příslušných ročníků šestiletého studia možnost účastnit se Voleb studentských.
 

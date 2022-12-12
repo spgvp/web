@@ -1,5 +1,5 @@
 ---
-title: 12.-13.12 - Studentské prezidentské volby
+title: 12.- 13.12 - Studentské prezidentské volby
 weight: 10
 date: 2022-12-10T08:13:44.516Z
 draft: false

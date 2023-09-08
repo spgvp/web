@@ -2,7 +2,7 @@
 title: 24.3. + 31.3. 2023 Jarmark volitelných předmětů
 weight: 1000
 date: 2023-04-06T19:29:26.878Z
-draft: true
+draft: false
 tags:
   - "#jarmarkvolitelnychpredmetu"
 cover:
